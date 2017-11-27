@@ -19,8 +19,8 @@
 #include "video.h"
 #include "music.h"
 
-const char *video_dirs[] = {"ux0:/video", NULL};;
-const char *music_dirs[] = {"ux0:/music", NULL};;
+const char *video_dirs[] = {"ur0:/video", NULL};;
+const char *music_dirs[] = {"ur0:/music", NULL};;
 
 static unsigned buttons[] = {
 	SCE_CTRL_SELECT,
